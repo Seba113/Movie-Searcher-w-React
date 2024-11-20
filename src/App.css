@@ -1,0 +1,66 @@
+body{
+  background-color: #07111a;
+}
+
+.page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.divSort{
+  margin-bottom: 10px;
+}
+
+.search{
+  background-color: #011e35;
+}
+
+p{
+  text-align: center;
+  color: rgb(9, 110, 156);
+  font-size: 20px;
+  margin: 0
+};
+
+button{
+  background-color: #011e35;
+}
+
+button:hover{
+  background-color: #011e35;
+  box-shadow: 0 0 10px #026fc9;
+
+}
+
+.movies{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+  text-align: center;
+}
+
+.movies li img{
+  border-radius: 8px;
+  box-shadow: 0 0 15px #413e3e
+}
+
