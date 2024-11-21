@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "just-debounce-it": "3.2.0",
@@ -23,11 +25,13 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "standard": "^17.1.2",
     "vite": "^5.4.10"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
-  }
+  },
+  "homepage": "https://github.com/Seba113/Movie-Searcher-w-React.git"
 }
